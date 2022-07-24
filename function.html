@@ -1,0 +1,38 @@
+<?php 
+function printRectangle($h , $w) 
+{ 
+
+for ($i = 0; $i < $h; $i++) 
+
+{ 
+
+echo"\n"; 
+
+for ($j = 0; $j < $w; $j++) 
+
+{ 
+
+
+
+if ($i == 0 || $i == $h - 1 || 
+$j == 0 || $j == $w - 1) 
+
+echo"*"; 
+
+else
+
+echo" "; 
+
+} 
+
+} 
+} 
+
+
+$h = 4; 
+
+$w = 5; 
+
+printRectangle($h, $w); 
+?>
+
